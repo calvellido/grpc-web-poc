@@ -4,13 +4,14 @@ gRPC simple node server /client
 Prerequisites
 -------------
 
-- `node`: This requires node 0.12.x or greater.
+- `node`
+   This requires node 0.12.x or greater.
 
 Install
 -------
 
    ```sh
-   $ npm install
+   npm install
    ```
 
 Running it
@@ -21,15 +22,15 @@ To generate the code needed to work with protocol buffers in Node.js - this appr
  - Run the server
 
    ```sh
-   $ # from this directory
-   $ node greeter_server.js &
+   # from this directory
+   node greeter_server.js &
    ```
 
  - Run the client
 
    ```sh
-   $ # from this directory
-   $ node greeter_client.js
+   # from this directory
+   node greeter_client.js
    ```
 
 Tutorial
